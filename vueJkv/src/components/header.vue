@@ -4,7 +4,7 @@
             <div v-if="foo=='foo'" class="logo"><router-link to="/"><img src="../assets/navlogo.png" alt=""></router-link></div>
             <div v-if="!(foo=='foo')" class="logo"><router-link to="/"><img src="../assets/logo.png" alt=""></router-link></div>
             <div class="main-nav">
-                <router-link :class="link=='exper'?'a-th':''" to="/exper">体验111</router-link>
+                <router-link :class="link=='exper'?'a-th':''" to="/exper">体验333</router-link>
                 <router-link :class="link=='sexplorePlan'?'a-th':''" to="/sexplorePlan">探索与计划旅行</router-link>
                 <router-link :class="link=='news'?'a-th':''" to="/news">资讯</router-link>
                 <router-link :class="link=='setOff'?'a-th':''" to="/setOff">出发</router-link>
