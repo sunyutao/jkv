@@ -1,0 +1,311 @@
+@CHARSET "UTF-8";
+/*shouye*/
+.homeimg{
+    position:relative;
+    min-width:1170px;
+}
+.homeimg>img{
+    display:block;
+    width:100%;
+}
+.hometext-box{
+    position:absolute;
+    /*width:550px;*/
+    letter-spacing:4px;
+}
+/*1.1*/
+.home1box{
+    top:30%;
+    right:13%;
+}
+.home1-1{
+    font-size:28px;
+    text-align:right;
+    padding-right:30px;
+    color:#333;
+    letter-spacing:3px;
+    line-height:38px;
+}
+.home1-2{
+    font-size:16px;
+    text-align:center;
+    margin-top:25px;
+    padding-left:135px;
+    line-height:24px;
+    color:#333;
+    letter-spacing:1px;
+}
+/*1.2*/
+.home2box{
+    top:38%;
+    left:13%;
+}
+.home2-1{
+    text-align:center;
+    line-height:20px;
+    color:#333;
+    font-size:14px;
+    letter-spacing:1px;
+}
+.home2-2{
+    text-align:center;
+    font-size:20px;
+    margin:5px 0;
+    color:#333;
+    letter-spacing:1px;
+    font-weight:bold;
+}
+.home2-3{
+    text-align:center;
+    line-height:20px;
+    color:#333;
+    font-size:14px;
+    letter-spacing:1px;
+}
+.home2-4{
+    padding:5px 20px;
+    border:2px solid #12B5B2;
+    border-radius:50px;
+    transition:all 0.2s;
+    -ms-transition:all 0.2s;
+	-moz-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+	-o-transition:all 0.2s;
+    background:none;
+    margin:20px 0 0 214px;
+    color: #12B5B2;
+    cursor:pointer;
+}
+.home2-4:hover{
+    background:#12B5B2;
+    color:#fff;
+}
+/*1.3*/
+.home3box{
+    width:1100px;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:50%;
+    margin-left:-550px;
+}
+.home3box img {
+    position: absolute;
+}
+img.server-4 {
+    left: 50%;
+    top: 50%;
+    margin-left:-110px;
+    margin-top:-110px;
+}
+img.server-3 {
+    left: 50%;
+    top: 50%;
+    margin-left:-328px;
+    margin-top:-150px;
+}
+img.server-2 {
+    left: 50%;
+    top: 50%;
+    margin-left:-295px;
+    margin-top:-175px;
+}
+img.server-1 {
+    left: 50%;
+    top: 50%;
+    margin-left:-456px;
+    margin-top:-172px;
+}
+/*1.4*/
+#homeimg4{
+    padding-top:500px;
+    background:#F3F5F7;
+}
+.home4box{
+    top:200px;
+    left:13%;
+    text-align:center;
+    line-height:20px;
+    color:#333;
+    font-size:14px;
+}
+.home4box span{
+    display:inline-block;
+    font-size:28px;
+    margin:10px 0;
+}
+.ab{
+	margin-top:36px;
+}
+.ab button a{
+	color: #12B5B2;
+	display:block;
+	 margin:0 10px 0;
+    padding:5px 20px;
+    background:none;
+    border-radius:40px;
+    border:2px solid #12B5B2;   
+    transition:all 0.2s;
+    -ms-transition:all 0.2s;
+	-moz-transition:all 0.2s;
+	-webkit-transition:all 0.2s;
+	-o-transition:all 0.2s;
+}
+.ab button a:hover{
+    background:#12B5B2;
+    color:#fff;
+}
+.peo{
+    position:absolute;
+    top:151px;
+    left:50%;
+}
+.peo img{width:400px;}
+/*1.5*/
+#homeimg5{
+    padding-top:500px;
+    background:#fff;
+}
+.home5box{
+    top:250px;
+    left:53%;
+    text-align:center;
+    line-height:20px;
+    color:#333;
+    z-index:99;
+    font-size:14px;
+}
+.home5box span{
+    display:inline-block;
+    font-size:28px;
+    margin:5px 0 20px;
+}
+.globe{
+    position:absolute;
+    top:166px;
+    left:17%;
+}
+.globe img:first-child{width:569px;}
+.ball{
+    position:absolute;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+}
+.ball:hover{
+    transform:scale(1.4);
+    -webkit-transform:scale(1.4);
+    -moz-transform:scale(1.4);
+    -o-transform:scale(1.4);
+    -ms-transform:scale(1.4);
+}
+.ball1{
+    top:47px;
+    left:67px;
+    width:60px;
+}
+.ball2{
+    top:9px;
+    left:146px;
+     width:40px;
+}
+.ball3{
+    top:69px;
+    left:121px;
+     width:55px;
+}
+.ball4{
+    top:-13px;
+    left:324px;
+     width:68px;
+}
+.ball6{
+    top:50px;
+    left:390px;
+     width:35px;
+}
+.ball7{
+    top:-28px;
+    left:416px;
+     width:50px;
+}
+/*1.6*/
+.home6box{
+    position: absolute;
+    top:25%;
+    left:25%;
+    color:#fff;
+    padding-right:550px;
+}
+.expect{
+    position:absolute;
+    top:130px;
+    right:0;
+    font-size:16px;
+    color:#fff;
+}
+.expect span{
+    font-size:28px;
+    color:#fff;
+}
+.home6box-2 p{
+    margin-bottom:70px;
+    color:#fff;
+    font-size:14px;
+}
+.home6box-2 p i{
+    font-size:28px;
+    color:#fff;
+    margin-bottom:6px;
+}
+.inputbox input{
+    border-radius:3px;
+    height:32px;
+    padding:5px 10px;
+    vertical-align:middle;
+    font-size:14px;
+    background:#fff;
+}
+.inputline1{
+    display:inline-block;
+    vertical-align:top;
+    margin-bottom:30px;
+}
+.inputline1 span{
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:5px;
+    margin-right:15px;
+    margin-bottom:3px;
+    color:#fff;
+    font-size:14px;
+}
+.logname{
+    display:block;
+    width:160px;
+    margin-right:20px;
+}
+.phone{
+    width:268px;
+}
+.logbtn{
+    width:268px;
+    margin-top:30px;
+}
+.logbtn button{
+    padding:9px 40px;
+    width:268px;
+    background:#12B5B1;
+    cursor:pointer;
+    border-radius:5px;
+    font-size:16px;
+    border:2px solid #12B5B2;
+    color:#fff
+}
+button,button:focus,textarea:focus,input,select,textarea{
+    border:none;
+    outline:none;
+    background:none;
+}

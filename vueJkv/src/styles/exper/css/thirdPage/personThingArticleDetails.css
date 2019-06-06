@@ -1,0 +1,403 @@
+body {
+	background: #F8F8F8;
+}
+
+.currentPosition {
+	color: #999999;
+}
+
+.articleDetailContent {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.articleDetailContentLeft {
+	width: 76%;
+	border-radius: 5px;
+	padding: 15px;
+	box-sizing: border-box;
+	background: #FFFFFF;
+}
+
+.articleDetailContentLeft>h2 {
+	font-size: 22px;
+}
+
+.articleDetailMsg {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+
+.articleDetailContentRight {
+	width: 22%;
+}
+
+.articleDetailContentRight>h5 {
+	border-left: 2px solid #FFBF43;
+	box-sizing: border-box;
+	padding-left: 15px;
+	font-size: 16px;
+}
+
+/* 右侧评论区列表 */
+.articleDetailtRightList{
+	border-radius: 5px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	margin-top: 15px;
+}
+.articleDetailtRightList>li{
+	position: relative;
+}
+.articleDetailtRightList>li>img{
+	position: absolute;
+    top: 10px;
+    right: 15px;
+    bottom: 0;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+.turnOnArea{
+	color: #666666;
+	cursor: pointer;
+	font-size: 16px;
+	border-bottom: 1px solid #F8F8F8;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.turnOnArea:before {
+	content: '#';
+	margin-right: 2px;
+}
+
+.turnOnArea:after {
+	content: '#';
+	margin-left: 2px;
+}
+
+.RightItemActive {
+	color: #FFBF43 !important;
+}
+
+.articleDetailMsgRight:before {
+	content: '';
+	display: inline-block;
+	background: url(/resources/exper/image/icon/readyNumIcon.png) no-repeat center;
+	background-size: 100% 100%;
+	width: 20px;
+	height: 12px;
+	margin-right: 10px;
+}
+
+.articleDetailMsgRight {
+	display: flex;
+	align-items: center;
+	font-size: 12px;
+	color: #707070;
+}
+
+.articleDetailMsgLeft {
+	display: flex;
+	align-items: center;
+	font-size: 16px;
+}
+
+.articleDetailMsgLeft>img {
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	border: 2px solid #FFBF43;
+	box-shadow: 0px 3px 5px #FFBF43;
+	margin-right: 20px;
+}
+
+.articleDetailMsgLeft>span {
+	font-size: 12px;
+	color: #707070;
+	margin-left: 20px;
+}
+
+.articleDetailCnt {
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+.articleDetailCnt>p {
+	margin-top: 10px;
+	line-height: 24px;
+	letter-spacing: 2px;
+	text-indent: 28px;
+	font-size: 18px;
+}
+
+.articleDetailCnt>img {
+	margin-top: 15px;
+	border-radius: 5px;
+	width: 100%;
+	height: auto;
+}
+
+.articleDetailCnt>span {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.articleDetailCntFoot {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	margin-top: 60px;
+}
+
+.articleDetailCntFoot>span {
+	display: block;
+	width: 100%;
+	font-size: 12px;
+	color: #D7D7D7;
+	text-align: center;
+	border-bottom: 1px solid #D7D7D7;
+}
+
+.FootClickLike {
+	margin-top: 15px;
+	color: #D7D7D7;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	display:none;
+}
+
+.FootClickLike:before {
+	content: '';
+	display: inline-block;
+	background: url(/resources/exper/image/icon/likeIcon.png) no-repeat center;
+	background-size: 100% 100%;
+	width: 16px;
+	height: 16px;
+	margin-right: 10px;
+}
+
+.commentArea {
+	width: 100%;
+}
+
+.commentAreaTop {
+	padding: 10px 8px;
+	border-bottom: 1px solid #999999;
+}
+
+.commentAreaCnt {
+	width: 100%;
+    font-size: 14px;
+    overflow-y: scroll;
+    max-height: 680px;
+}
+.commentAreaCnt::-webkit-scrollbar{
+	width:10px;
+	height:10px;
+}
+.commentAreaCnt::-webkit-scrollbar-thumb{
+	border-radius:5px;
+	background:#C1C1C1;
+}
+.commentAreaCnt::-webkit-scrollbar-track{
+	border-radius:0;
+	background:#F1F1F1;
+}
+.firstPersonText {
+	color: #999999;
+}
+
+.personName {
+	font-size: 16px;
+}
+
+.commentAreaCnt span {
+	font-size: 12px;
+	margin-left: 15px;
+	color: #999999;
+}
+
+.replyArea {
+	background: #F7F7F7;
+	box-sizing: border-box;
+	padding: 10px;
+	width: 98%;
+	margin-left: 2%;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+.commentAreaCnt p {
+	margin: 0;
+}
+
+.commentAreaCnt>li {
+	border-bottom: 1px dashed #B1B1B1;
+}
+
+.commentAreaCnt li {
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.commentAreaCnt li>img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	right: 5px;
+	cursor: pointer;
+}
+
+.commentAreaCnt>li>img {
+	right: 15px;
+}
+
+.commentReplyArea>li:nth-child(1) {
+	border-bottom: 1px dashed #B1B1B1;
+}
+
+.rollingMouse {
+	text-align: center;
+	font-size: 14px;
+	color: #B1B1B1;
+	margin-top: 20px;
+}
+
+.CommentReplyBox {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-top: 15px;
+}
+
+.huifuBox {
+	display: none;
+}
+
+.CommentReplyBox>button {
+	margin-top: 15px;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	background: #B5B5B5;
+	color: #FFFFFF;
+	border: none;
+	outline: none;
+}
+
+.BoxinputText {
+	outline: none;
+	background: #F8F8F8;
+	border-radius: 5px;
+	border: 1px solid #DDDDDD;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 8px 15px;
+}
+
+.toggleClass {
+	display: flex !important;
+}
+
+.Commentlabel {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 15px;
+	display: none;
+}
+
+.Commentlabel>li {
+	position: relative;
+	border-bottom: 1px dashed #B1B1B1;
+	color: #666666;
+}
+
+.Commentlabel>li>img {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	cursor: pointer;
+}
+
+.daysAgo {
+	font-size: 12px;
+}
+
+.Commentlabel>li>h5 {
+	font-size: 14px;
+}
+
+.Commentlabel>li>p {
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+.ReplyInputArea {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 500px;
+	height: 210px;
+	border-radius: 5px;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	padding: 15px;
+	display: none;
+	box-shadow: 0 0 2px;
+}
+
+.ReplyInputArea>textarea {
+	width: 100%;
+	border-radius: 5px;
+	height: 130px;
+	margin-top: 15px;
+	resize: none;
+	outline: none;
+}
+
+.ReplyInputAreaTop {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ReplyInputAreaTop>p {
+	margin: 0;
+}
+
+.ReplyInputAreaTop>button {
+	width: 70px;
+	height: 30px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 12px;
+	background: #B5B5B5;
+	letter-spacing: 2px;
+}
+
+.ReplyInputArea>img {
+	position: absolute;
+	width: 20px;
+	cursor: pointer;
+	height: 20px;
+	top: -30px;
+	right: -30px;
+}

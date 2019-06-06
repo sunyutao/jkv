@@ -1,0 +1,263 @@
+/*登录页面*/
+#loginbox{
+    background:url(../assets/perbg.png) no-repeat center center;
+    background-size:cover;
+    position:relative;
+    min-height:589px;
+}
+#loginbox:after{
+    content:"";
+    display:block;
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    lefT:0;
+    background:rgba(0,0,0,0.2);
+}
+.login{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+    z-index:2;
+}
+.loginlogo{
+    text-align:center;
+}
+.loginlogo h2{
+    color:#fff;
+    font-size:24px;
+    margin-top:20px;
+    font-weight:normal;
+}
+.logincont{
+    margin-top:40px;
+    background:#fff;
+    border-radius:5px;
+    position:relative;
+    width:550px;
+    height:348px;
+}
+.logincont p{
+    font-size:20px;
+    text-align:center;
+    padding:10px 15px;
+    border-bottom:1px solid #EAEAEA;
+    margin-bottom:20px;
+}
+.write{
+    margin:0 auto;
+    width:300px;
+}
+.link-sign{
+    text-align:right;
+    margin-bottom:15px;
+}
+.link-sign a{color:#FFBF43}
+.link-sign a:hover{text-decoration:underline;}
+.writeinfo input{
+    width:300px;
+    border:1px solid #E8E8E8;
+    border-radius:3px;
+    padding:8px 10px;
+    margin-bottom:15px;
+}
+.codeinfo{
+    position:relative;
+}
+#code_input{
+    width:183px;
+    margin:0;
+    border-right:none;
+}
+#v_container{
+    width: 120px;
+    height: 37px;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+.fordetcode{
+    text-align:right;
+    margin-top:15px;
+}
+.fordetcode a{color:#FFBF43}
+#my_button{
+    display:block;
+    margin: 20px auto 0;
+    padding:5px;
+    width:160px;
+    border-radius:5px;
+    color:#fff;
+    background:#FFBF43;
+    font-size:16px;
+    cursor:pointer;
+    border: none;
+}
+.loginclo{top:14px!important;}
+/*注册页面*/
+.signin{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+    z-index:2;
+}
+.signcont{
+    margin-top:10px;
+    background:#fff;
+    border-radius:5px;
+    position:relative;
+    width:850px;
+    padding-bottom:40px;
+}
+.signcont>p{
+    font-size:20px;
+    text-align:center;
+    padding:10px 15px;
+    border-bottom:1px solid #EAEAEA;
+    margin-bottom:20px;
+}
+.creat{
+    width:426px;
+    margin:0 auto 20px;
+    text-align:left;
+    padding:5px 0;
+    border-bottom:1px solid #D5D5D5;
+    position:relative;
+}
+.creat span{
+    position:absolute;
+    top:5px;
+    right:0;
+}
+.creat span a{color:#FFBF43}
+.fillinfo{
+    width:426px;
+    margin:0 auto 20px;
+}
+.fillinfo p{
+    text-align:left;
+    color:#9E9E9E;
+    margin-bottom:5px;
+}
+.fillinfo input{
+    width:426px;
+    height:50px;
+    border-radius:3px;
+    background:#EAEAEA;
+    padding:5px 10px;
+    border: none;
+    box-sizing: border-box
+}
+.fillinfo #code_input{width:287px;}
+.fillinfo #v_container{
+    width:140px;
+    height:40px;
+    border-radius:0 5px 5px 0;
+}
+.fillin #my_button{
+    width:426px;
+    height:40px;
+}
+/*注册完成*/
+.signokcont{
+    margin-top:10px;
+    background:#fff;
+    border-radius:5px;
+    position:relative;
+    width:750px;
+    padding-bottom:40px;
+}
+.signokcont>p{
+    font-size:20px;
+    text-align:center;
+    padding:10px 15px;
+    border-bottom:1px solid #EAEAEA;
+    margin-bottom:20px;
+}
+.signok #my_button{
+    width:426px;
+    height:40px;
+}
+.signuser{
+    text-align:center;
+    padding:30px 0;
+    font-size:16px;
+}
+.signuser img{
+    border-radius:160px;
+    width:111px;
+    margin-bottom:10px;
+}
+/*忘记密码页*/
+.forget{
+    margin:0 auto 40px;
+    width:426px;
+}
+.forget h2{
+    color:#A4A4A4;
+    font-size:24px;
+    font-weight:normal;
+}
+.forget p{
+    color:#FFBF43;
+    margin:5px 0 20px;
+}
+.forget input{
+    width:426px;
+    height:50px;
+    border-radius:3px;
+    background:#eaeaea;
+    padding:5px 10px;
+    border: none;
+    box-sizing: border-box
+}
+.forget #my_button{
+    width:426px;
+    margin-top:100px;
+    height:40px;
+}
+.reset{
+    text-align:center;
+    margin-bottom:30px;
+}
+.reset input{
+    width:330px;
+    border:1px solid #e8e8e8;
+    border-radius:3px;
+    padding:8px 10px;
+    margin-left:10px;
+}
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    background: url(../assets/jkvicon.png) no-repeat;
+    background-position: -55px -63px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+

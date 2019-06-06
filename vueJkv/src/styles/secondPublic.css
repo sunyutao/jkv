@@ -1,0 +1,182 @@
+
+/* ****************** */
+.currentPosition {
+	color: #B6B6B6;
+	font-size: 14px;
+}
+.currentPosition a{
+	/* color: #B6B6B6; */
+}
+.lopImg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	color: #FFFFFF;
+	line-height: 60px;
+	background: rgba(0,0,0,.2);
+	font-size: 16px;
+}
+.swiper-button-next, .swiper-button-prev{
+	top: 70%;
+	height: 22px;
+}
+/* ******** */
+.WonderfulMomentCntT-top{
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size:16px;
+}
+
+.WonderfulMomentCntT-top-right>li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FFBF43;
+	height: 30px;
+	cursor: pointer;
+	padding: 0 10px;
+	color: #FFFFFF;
+	border-radius: 5px;
+	width:136px;
+	height:36px;
+	font-size:14px;
+}
+.active{
+	color:#fff;
+	background:#ffbf43;
+}
+.WonderfulMomentCntT-top-label{
+	display: flex;
+    height: 30px;
+    color:#333;
+}
+.WonderfulMomentCntT-top-right img{
+	width:16px;
+	height:16px;
+}
+.WonderfulMomentCntT-top-label>li{
+	min-width:53px;
+	height:30px;
+	margin-right:20px;
+	cursor:pointer;
+	text-align: center;
+    line-height: 30px;
+    padding:0 5px;
+    font-size:14px;
+}
+.WonderfulMomentCnt-list{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.WonderfulMomentCnt-list>li{
+	width: 277px;
+	height:277px;
+	box-sizing: border-box;
+	margin:0 20px 20px 0;
+	cursor: pointer;
+	position: relative;
+}
+.WonderfulMomentCnt-list>li:nth-child(4n){
+	margin-right:0;
+}
+.WonderfulMomentCntT-top-newHot{
+	    display: flex;
+    align-items: center;
+}
+.WonderfulMomentCntT-top-newHot>li{
+	width:110px;
+	height:30px;
+	line-height:30px;
+	border-radius:5px;
+	margin-right:10px;
+	cursor:pointer;
+	text-align: center;
+	font-size:14px;
+}
+.WMItemImgBox{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.WM-top-newHotActive{
+	color:#fff!important;
+	background:#ffbf43;
+}
+.WMItemImgBox>a{
+	display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+.WMItemImgBox>a>img{
+	width: 100%;
+	height: 100%;
+}
+.WMItemFotMsg{
+	width: 0;
+	height:0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background:rgba(0,0,0,.3);
+    overflow: hidden;
+    transition: all 300ms;
+}
+.WMItemFotMsg>p{
+	line-height: 20px;
+	white-space: nowrap;
+	width:277px;
+	color:#fff;
+	font-size:22px;
+}
+.WMSeeMore{
+	width: 117px;
+	height: 32px;
+	border: 1px solid #999999;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	color: #999999;
+	margin-top: 32px;
+	cursor: pointer;
+}
+.lodingImg{
+	width: 100%;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	display: none;
+}
+.lodingImg>img {
+	width: 40px;
+	height: 40px;
+	animation: loadingRoate 1s linear infinite;
+}
+@keyframes loadingRoate{
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}

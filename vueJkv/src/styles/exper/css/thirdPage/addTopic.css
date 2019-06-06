@@ -1,0 +1,261 @@
+@CHARSET "UTF-8";
+body{
+	background: #F7F7F7;
+}
+.container>div{
+	background: #FFFFFF;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-top: 15px;
+}
+.container h4{
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 16px;
+	border-bottom:1px solid #ddd;
+}
+
+.addTopicTop>div{
+	box-sizing: border-box;
+	padding: 20px;
+}
+.addTopicName{
+	border: 1px solid #DDDDDD;
+	background: #F4F4F4;
+	outline: none;
+	width: 534px;
+	height:42px;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 5px;
+}
+/*  */
+.topicType>div{
+	box-sizing: border-box;
+	padding: 15px;
+	display: flex;
+}
+.topicType>div>select{
+	outline: none;
+	margin-right: 15px;
+	padding:5px 15px;
+	border-radius: 5px;
+	cursor: pointer;
+	width:174px;
+	height:42px;
+}
+/* 输入标签input框 */
+.addtopicLabel{
+	width: 500px;
+	box-sizing: border-box;
+	outline: none;
+	border: 1px solid #FFBF43;
+	border-radius: 5px;
+	padding:0 15px;
+	height: 40px;
+}
+.topicLabel{
+	padding-bottom:15px;
+}
+.topicLabel .labelList{
+	display: flex;
+    padding-left:15px;
+    font-size: 14px;
+    color: #999999;
+}
+.topicLabel .labelList>li{
+	margin-top:15px;
+	padding: 5px 5px 5px 10px;
+    border: 1px solid #999999;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.topicLabel .labelList>li:hover{
+	color:#ffbf43;
+	border:1px solid #ffbf43;
+}
+.topicLabel .labelList span{
+	display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/* .topicLabel>div{
+>>>>>>> .r84
+	box-sizing: border-box;
+	padding: 15px;
+	position: relative;
+<<<<<<< .mine
+}
+.labelList{
+	display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0 5px 0;
+    font-size: 14px;
+    color: #999999;
+}
+.labelList>li{
+    padding: 5px 5px 5px 10px;
+    border: 1px solid #999999;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin: 0 15px 10px 0;
+}
+.labelList span{
+	display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.labellist{
+=======
+} */
+/*.labellist{
+>>>>>>> .r84
+	background: #FFFFFF;
+	width: 500px;
+	box-shadow: 0 0 2px #000000;
+	border-radius: 5px;
+	position: absolute;
+    top: 60px;
+    left: 15px;
+	display: none;
+} */
+/* .labellist>div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #F7F7F7;
+	box-sizing: border-box;
+	padding: 15px;
+}
+.upLoadLabelTextListCnt>li{
+	box-sizing: border-box;
+	height: 30px;
+	padding: 0 15px;
+	line-height: 30px;
+	cursor: pointer;
+	display:flex;
+} */
+
+.upLoadLabelText{
+	width: 300px;
+	border: 1px solid #EEAE3D;
+	border-radius: 5px;
+	position: relative;
+	margin:20px 0 10px 15px;
+}
+.upLoadLabelText>input{
+	width: 100%;
+	border: none;
+	outline: none;
+}
+.upLoadLabelTextList{
+	position: absolute;
+	top: 35px;
+	left: 0px;
+	width: 100%;
+	padding: 5px 0;
+	border-radius: 5px;
+	box-shadow: 0 0 3px #E8E8E8;
+	background: #FFFFFF;
+	font-size: 14px;
+	display: none;
+}
+.upLoadLabelTextListTop{
+	width: 100%;
+	height: 30px;
+	box-sizing: border-box;
+	padding: 0 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #F7F7F7;
+}
+.clickHandleUpLabel{
+	color: #EEAE3D;
+	cursor: pointer;
+}
+.upLoadLabelTextListCnt{
+	width: 100%;
+}
+.upLoadLabelTextListCnt>li{
+	box-sizing: border-box;
+	height: 30px;
+	padding: 0 15px;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.topicText>div{
+	box-sizing: border-box;
+	padding:0 20px 20px 20px;
+}
+.topicText>div>textarea{
+	width: 100%;
+	outline: none;
+	background: #F4F4F4;
+	border: 1px solid #DDDDDD;
+	height: 200px;
+	border-radius: 5px;
+	resize: none;
+}
+.addtopicbtn{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.addtopicbtn>button{
+	    width: 90px;
+	 height: 30px;
+	 background: #FFBF43;
+	 border-radius: 5px;
+	 color: #FFFFFF;
+	 border: none;
+	 outline: none;
+	 cursor: pointer;
+}
+.upLoadLabelTextListCnt span{
+	display:block;
+}
+/* 监听用户输入的标签 */
+.listenLabel{
+	max-width: 65%;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+/* 添加为标签按钮 */
+.clickHandleUpLabel{
+	color: #EEAE3D;
+    cursor: pointer;
+    display: block;
+    min-width: 16%;
+}
+/* 标签标题 */
+.labelTitle{
+	min-width:8%;
+}
+/* 标签名字 */
+.labelName{
+	color:#666666;
+	min-width:16%;
+	margin-left:10px;
+}
+.labelName:before{
+	content:'[ '
+}
+.labelName:after{
+	content:' ]'
+}
+/* 标签描述 */
+.labelText{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
